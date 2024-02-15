@@ -1,0 +1,100 @@
+html, body {
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -1.2px;
+}
+
+header {
+    padding: 20px;
+}
+
+main article {
+    padding: 180px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: rgb(35, 87, 255);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+code {
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: fit-content;
+    border: 0;
+    outline: 0;
+    color: white;
+    cursor: pointer;    
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 5px;
+}
+
+button:active {
+    transform: translateY(-1px);
+    scale: 1.1;
+}
+
+.red {
+    color: rgb(255, 92, 92);
+}
+
+.orange {
+    color: rgb(255, 193, 78);
+}
+
+.green {
+    color: rgb(98, 219, 98);
+}
+
+@media all and (max-width: 800px) {
+    main article {
+        padding: 20px;
+    }
+}
